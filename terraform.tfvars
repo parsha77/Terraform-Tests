@@ -1,20 +1,4 @@
-tags = {
-  Business-Unit       = "IT"
-  Confidentiality     = "Internal"
-  Cost-Center         = "12345"
-  Environment         = "dev"
-  Organization        = "Translink"
-  Project-Name        = "parsha-test"
-  Requestor           = "kkhatibi"
-  Risk-Rating         = "Medium"
-  Service-Level       = "Standard"
-  SLA                 = "99.9%"
-  Solution-ID         = "parsha-rg-01"
-  Solution-Name       = "parsha-solution"
-  Solution-Version    = "1.0.0"
-  Tech-Owner          = "tech-owner@example.com"
-  Tech-Support-Queue  = "support@example.com"
-  Owner               = "parsha"
-}
+// terraform.tfvars is deprecated. Tag and other values are inlined in main.tf per user request.
 
-location = "canadacentral"
+storage_account_name = "parshastorageacct01"
+

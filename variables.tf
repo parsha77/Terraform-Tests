@@ -1,11 +1,4 @@
-variable "tags" {
-  description = "Map of tags to apply to resources. Must include all policy-required keys."
-  type        = map(string)
-  default     = {}
-}
-
-variable "location" {
-  description = "Azure location for resources"
-  type        = string
-  default     = "canadacentral"
+variable "storage_account_name" {
+	description = "Name for the Azure Storage Account (must be globally unique, 3-24 lowercase alphanumeric)."
+	type        = string
 }
